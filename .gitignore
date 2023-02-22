@@ -1,0 +1,23 @@
+# R
+
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Project Specific
+
+local/
+
+# Jeckyll
+
+_site/
+.jekyll-cache/
+.sass-cache/
+.jekyll-metadata
+
+.bundle/
+vendor/
+
+index.html
+didattica-2023/
