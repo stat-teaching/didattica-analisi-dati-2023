@@ -1,3 +1,7 @@
+---
+title: Didattica Integrativa 2022-2023
+---
+
 ## Organizzazione
 
 Per lavorare al meglio vi consiglio di scaricare tutta questa repository ([link](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/stat-teaching/didattica-analisi-dati-2023)), estrarre la cartella dove preferite nel PC e rinominarla come volete. Poi ogni volta che dovete fare didattica integrativa o esercizi, aprite il file `didattica-analisi-dati-2023.Rproj`. RStudio aprirà l'R Project come una normale cartella e non dovrete più usare `getwd()` o `setwd()`. Per una spiegazione di come organizzare i file in R potete vedere questo [video](https://youtu.be/MvdVqB5brZo).
