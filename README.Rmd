@@ -1,0 +1,22 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Didattica Integrativa - Analisi Dati in Psicologia dello Sviluppo - 2022/2023
+
+<!-- badges: start -->
+
+![Github
+Pages](https://github.com/stat-teaching/didattica-analisi-dati-2023/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)
+<!-- badges: end -->
+
+In questa repository trovate del materiale, link, esercizi e script per la didattica integrativa del corso di Analisi Dati. La repository inoltre contiene il riassunto di quello affrontato nei vari incontri. I contenuti possono essere visualizzati in questo sito https://stat-teaching.github.io/didattica-analisi-dati-2023/.
