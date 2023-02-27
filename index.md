@@ -1,21 +1,27 @@
-## Materiale
-
-L'eventuale materiale rilevante verrà aggiunto in questa pagina. Ricordo che sono disponibili anche dei video e materiali di approfondimento riguardo R  Markdown e GGplot2 (a cura del Dott. Luca Menghini):
-
-- [R Markdown](https://stat-teaching.github.io/rmarkdown-intro/)
-- `ggplot2` (a cura di Luca Menghini) sulla pagina Moodle
-
-Nella cartella `scripts/` sono contenuti gli script usati creati durante le lezioni che possono contenere anche funzioni extra o approfondimenti
-
-Il libro https://psicostat.github.io/Introduction2R/ è un manuale disponibile online con tutti le informazioni principali per usare R.
-
-Le [FAQ](faq/faq.html) sono una serie di domande frequenti, esercizi o argomenti che spesso generano confusione. Per ognuno di questi argomenti ci sono alcune spiegazioni ed il relativo codice.
-
-I dati possono essere scaricati da Moodle oppure cliccando questo link [](). Se scaricate l'intera cartella (vedi sezione dopo) anche i dati saranno scaricati.
-
 ## Organizzazione
 
 Per lavorare al meglio vi consiglio di scaricare tutta questa repository ([link](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/stat-teaching/didattica-analisi-dati-2023)), estrarre la cartella dove preferite nel PC e rinominarla come volete. Poi ogni volta che dovete fare didattica integrativa o esercizi, aprite il file `didattica-analisi-dati-2023.Rproj`. RStudio aprirà l'R Project come una normale cartella e non dovrete più usare `getwd()` o `setwd()`. Per una spiegazione di come organizzare i file in R potete vedere questo [video](https://youtu.be/MvdVqB5brZo).
+
+## Materiale
+
+Durante le lezioni di didattica integrativa, il materiale come scripts, approfondimenti ed esercizi verranno aggiunti in questa pagina e su Moodle. I principali materiali sono:
+
+- Introduzione a [R Markdown](https://stat-teaching.github.io/rmarkdown-intro/) con video e slide
+- Introduzione a `ggplot2` (a cura di Luca Menghini) che è disponibile sulla pagina Moodle del corso
+
+Riguardo l'utilizzo di R, https://psicostat.github.io/Introduction2R/ è un manuale disponibile liberamente online che introduce tutti gli aspetti di base.
+
+### Scripts
+
+Nella cartella `scripts/` sono contenuti gli script usati creati durante le lezioni che possono contenere anche funzioni extra o approfondimenti. Saranno nominati in base al giorno e commentati in modo da essere chiari. Per comodità potete scaricare la cartella con gli scripts aggiornati a questo [link](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/stat-teaching/didattica-analisi-dati-2023/tree/main/scripts).
+
+### FAQ
+
+Le [FAQ](faq/faq.html) sono una serie di domande frequenti, esercizi o argomenti che spesso generano confusione. Per ognuno di questi argomenti ci sono alcune spiegazioni ed il relativo codice.
+
+### Dati
+
+I dati (gli stessi usati nel corso principale) possono essere scaricati da Moodle oppure cliccando questo [link](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/stat-teaching/didattica-analisi-dati-2023/tree/main/data). Se scaricate l'intera cartella (vedi sezione dopo) anche i dati saranno scaricati.
 
 ## Date e orari
 
