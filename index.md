@@ -6,6 +6,12 @@ title: Didattica Integrativa 2022-2023
 
 Per lavorare al meglio vi consiglio di scaricare tutta questa repository ([link](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/stat-teaching/didattica-analisi-dati-2023)), estrarre la cartella dove preferite nel PC e rinominarla come volete. Poi ogni volta che dovete fare didattica integrativa o esercizi, aprite il file `didattica-analisi-dati-2023.Rproj`. RStudio aprirà l'R Project come una normale cartella e non dovrete più usare `getwd()` o `setwd()`. Per una spiegazione di come organizzare i file in R potete vedere questo [video](https://youtu.be/MvdVqB5brZo).
 
+Vi consiglio di salvare questi preferiti nel browser in modo da accedere facilmente durante le lezioni:
+
+- Repository Github: https://github.com/stat-teaching/didattica-analisi-dati-2023
+- Sito Web della repository: https://stat-teaching.github.io/didattica-analisi-dati-2023/
+- Notebook condiviso per codice durante la lezione: https://etherpad.wikimedia.org/p/didattica-analisi-dati-2023
+
 ## Materiale
 
 Durante le lezioni di didattica integrativa, il materiale come scripts, approfondimenti ed esercizi verranno aggiunti in questa pagina e su Moodle. I principali materiali sono:
