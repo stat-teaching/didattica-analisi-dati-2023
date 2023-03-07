@@ -39,16 +39,16 @@ Le lezioni di didattica integrativa si svolgono con i seguenti orari:
 
 | **Data** | **Ora** | **Aula** |
 |:---:|:---:|:---:|
-| 16/03/2023 | 14:30-16:30 | 4N |
-| 23/03/2023 | 14:30-16:30 | 4N |
-| 30/03/2023 | 14:30-16:30 | 4N |
-| 06/04/2023 | 14:30-16:30 | 4N |
-| 13/04/2023 | 14:30-16:30 | 4N |
-| 20/04/2023 | 14:30-16:30 | 4N |
-| 27/04/2023 | 14:30-16:30 | 4N |
-| 04/05/2023 | 14:30-16:30 | 4N |
-| 11/05/2023 | 14:30-16:30 | 4N |
-| 18/05/2023 | 14:30-16:30 | 4N |
+| 16/03/2023 | 14:30-16:30 | 4S (Psico 2)|
+| 23/03/2023 | 14:30-16:30 | 3L (Psico 2)|
+| 30/03/2023 | 14:30-16:30 | 4N (Psico 2)|
+| 06/04/2023 | 14:30-16:30 | 4N (Psico 2)|
+| 13/04/2023 | 14:30-16:30 | 4N (Psico 2)|
+| 20/04/2023 | 14:30-16:30 | 4N (Psico 2)|
+| 27/04/2023 | 14:30-16:30 | 4N (Psico 2)|
+| 04/05/2023 | 14:30-16:30 | 4N (Psico 2)|
+| 11/05/2023 | 14:30-16:30 | 4N (Psico 2)|
+| 18/05/2023 | 14:30-16:30 | 4N (Psico 2)|
 
 L'aula informatica è dotata di computer con un installazione funzionante di R ed R Studio. Per comodità comunque potete portare il vostro PC. Se avete dubbi su come installare R ed R Studio potete seguire questo documento https://psicostat.github.io/Introduction2R/install.html.
 
