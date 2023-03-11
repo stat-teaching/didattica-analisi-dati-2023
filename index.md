@@ -8,9 +8,9 @@ Per lavorare al meglio vi consiglio di scaricare tutta questa repository ([link]
 
 Vi consiglio di salvare questi preferiti nel browser in modo da accedere facilmente durante le lezioni:
 
-- Repository Github: https://github.com/stat-teaching/didattica-analisi-dati-2023
-- Sito Web della repository: https://stat-teaching.github.io/didattica-analisi-dati-2023/
-- Notebook condiviso per codice durante la lezione: https://etherpad.wikimedia.org/p/didattica-analisi-dati-2023
+- Repository Github: [https://github.com/stat-teaching/didattica-analisi-dati-2023](https://github.com/stat-teaching/didattica-analisi-dati-2023)
+- Sito Web della repository: [https://stat-teaching.github.io/didattica-analisi-dati-2023/](https://stat-teaching.github.io/didattica-analisi-dati-2023/)
+- Notebook condiviso per codice durante la lezione: [https://etherpad.wikimedia.org/p/didattica-analisi-dati-2023](https://etherpad.wikimedia.org/p/didattica-analisi-dati-2023)
 
 ## Materiale
 
