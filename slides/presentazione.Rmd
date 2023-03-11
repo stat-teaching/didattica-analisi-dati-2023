@@ -6,6 +6,7 @@ institute: "@Università di Padova"
 date: "2022-2023"
 output:
   xaringan::moon_reader:
+    self_contained: true
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -120,7 +121,7 @@ Le lezioni di didattica integrativa si svolgono con i seguenti orari:
 ---
 # Let's start
 
-`r iframe("https://giphy.com/embed/StKiS6x698JAl9d6cx", 500, 500)`
+.center[`r iframe("https://giphy.com/embed/StKiS6x698JAl9d6cx", 500, 500)`]
 
 ---
 class: center, middle, inverse, final
