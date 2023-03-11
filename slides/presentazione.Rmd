@@ -1,0 +1,128 @@
+---
+title: "Analisi dei Dati in Psicologia dello Sviluppo"
+subtitle: "<br/> Didattica Integrativa"
+author: "Filippo Gambarota"
+institute: "@Università di Padova"
+date: "2022-2023"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+class: inverse, center, middle
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{r functions, include=FALSE}
+iframe <- function(link, w, h){
+    sprintf('<iframe src="%s" width="%s" height="%s" frameBorder="0"></iframe',
+            link, w, h)
+}
+```
+
+```{css, include = FALSE}
+.final h1 {
+    font-size: 40px
+}
+
+iframe {
+    display: block;
+    border-style:none;
+}
+```
+
+
+# About me
+
+---
+# About me
+
+- Dottorato con la Prof.ssa Sessa e Prof. Pastore
+- **Assegnista post-doc** presso il DPSS con il Prof. Gianmarco Altoè
+- Mi sono occupato di **elaborazione di informazioni subliminali** `r emo::ji("glasses")` ed **espressioni facciali** `r emo::ji("smile")`
+- Ora mi occupo di **analisi dei dati**, in particolare **meta-analisi**
+
+---
+class: inverse, center, middle
+
+# Didattica integrativa
+
+---
+# Cosa faremo...`r emo::ji("smile")`
+
+- Breve introduzione a R
+- Momento dubbi/disperazione sugli argomenti del corso che non sono chiari
+- Esercizi dalla dispensa proposta dal Prof. Pastore
+
+---
+# Cosa NON faremo...`r emo::ji("smile")`
+
+- Argomenti extra che saranno poi parte del programma/esame
+- Chiarimenti/consigli sulle modalità d'esame
+
+---
+# Breve introduzione a R
+
+R è un linguaggio di programmazione, quindi complesso all'inizio ma estremamente versatile. Non vedremo tutto ma principalmente quello che ci serve per gli esercizi.
+
+Se volete approfondire:
+
+- [introduction2R](https://psicostat.github.io/Introduction2R/): libro disponibile online che introduce tutti gli aspetti del linguaggio
+- [ARCA - Introduzione a R](https://www.dpss.unipd.it/arca/home): corsi gratuiti organizzati dal DPSS su varie tematiche tra cui un corso completo sul linguaggio R. Il materiale è comunque sempre disponibile qui [arca-dpss.github.io/course-R](https://arca-dpss.github.io/course-R/)
+
+---
+# Materiale
+
+Tutto quello che faremo sarà disponibile a questo link [stat-teaching.github.io/didattica-analisi-dati-2023](https://stat-teaching.github.io/didattica-analisi-dati-2023/):
+- slides
+- script
+- esercizi risolti
+- etc.
+
+---
+# Organizzazione
+
+Vi consiglio di:
+
+1. Salvare tra i preferiti il sito web del corso
+2. Scaricare la cartella del corso (trovate il link nel sito) ed usarla per tutte le cose che faremo
+3. Tenere aperto anche il [notebook condiviso](https://etherpad.wikimedia.org/p/didattica-analisi-dati-2023) (trovate il link nel sito) che è utile per condividere soluzioni
+
+---
+## Date e orari
+
+Le lezioni di didattica integrativa si svolgono con i seguenti orari:
+
+| **Data** | **Ora** | **Aula** |
+|:---:|:---:|:---:|
+| 16/03/2023 | 15:30-17:30 | 4S (Psico 2)|
+| 23/03/2023 | 14:30-16:30 | 3L (Psico 2)|
+| 30/03/2023 | 14:30-16:30 | 4N (Psico 2)|
+| 06/04/2023 | 14:30-16:30 | 4N (Psico 2)|
+| 13/04/2023 | 14:30-16:30 | 4N (Psico 2)|
+| 20/04/2023 | 14:30-16:30 | 4N (Psico 2)|
+| 27/04/2023 | 14:30-16:30 | 4N (Psico 2)|
+| 04/05/2023 | 14:30-16:30 | 4N (Psico 2)|
+| 11/05/2023 | 14:30-16:30 | 4N (Psico 2)|
+| 18/05/2023 | 14:30-16:30 | 4N (Psico 2)|
+
+---
+# Rules `r emo::ji("rocket")`
+
+- **Diamoci del tu**, vorrei fosse un momento, seppur didattico-universitario, più diretto e meno formale
+- **Partecipate!** domande, dubbi, curiosità e approfondimenti. **E' un momento a disposizione per voi** 🤗
+
+---
+# Let's start
+
+`r iframe("https://giphy.com/embed/StKiS6x698JAl9d6cx", 500, 500)`
+
+---
+class: center, middle, inverse, final
+
+# `r icons::fontawesome("envelope")`  [filippo.gambarota@unipd.it](mailto:filippo.gambarota@gmail.com)
