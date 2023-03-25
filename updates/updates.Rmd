@@ -1,0 +1,75 @@
+---
+title: "Aggiornamenti Didattica Integrativa"
+output: 
+        html_document:
+            toc: true
+            toc_float: true
+            toc_depth: 3
+            self_contained: true
+date: "Aggiornato il `r Sys.Date()`"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# 23 Marzo 2023
+
+### Importare i dati
+
+Introduzione all'**importazione dei dati** per i formati `csv` ed `excel`. Gli aspetti fondamentali sono:
+
+- riconoscere il tipo di formato
+- capire il separatore di dato
+- capire se la prima riga dei dati corrisponde ai nomi delle colonne
+- trovare la funzione di importazione corretta con i relativi argomenti
+- per file `csv` abbiamo visto `read.csv()`
+- per file `xls` abbiamo visto `readxl::read.xls()`
+
+Per approfondire il tema dell'importazione dati potete vedere [questo documento](https://arca-dpss.github.io/course-R/extra/importing_data.html) che riassume bene gli aspetti principali.
+
+### Esercizio 1.10
+
+- importazione di formati diversi
+- selezione di righe e colonne dal dataframe
+- principali tipologie di variabili (numeriche, categoriali, ordinali)
+
+### Esercizio 1.11
+
+- statistiche descrittive e grafici per variabili categoriali e numeriche
+- frequenze cumulate relative con `cumsum(table(x) / length(x))`
+- cumulate empiriche con `plot(ecdf(x))`
+
+```{r}
+pazienti <- readxl::read_xls("../data/pazienti.xls")
+par(mfrow = c(1,2)) # 2 grafici sulla stessa schermata
+
+# usando ecdf
+plot(ecdf(pazienti$eta))
+
+# calcolando le frequenze cumulate relative e plottando
+plot(x = sort(unique(pazienti$eta)),
+     y = cumsum((table(pazienti$eta)) / length(pazienti$eta))
+)
+```
+
+### Esercizio 1.12
+
+- quantili e ranghi percentili
+- il quantile è un'osservazione associata ad un certo rango percentile e si calcola con `quantile(x, probs = )` dove probs è il rango percentile espresso da 0 a 1
+- il rango percentile di un osservazione è la percentuale di valori minori a quell'osservazione
+
+```{r}
+x <- runif(100, 10, 80)
+
+# 25esimo percentile di x
+quantile(x, probs = c(0.25))
+
+# rango percentile del primo elemento di x
+x[1]
+mean(x <= x[1]) * 100
+
+# con la funzione rank calcolo il rango di ogni osservazione
+rp <- rank(x)/length(x)
+rp[1] # uguale a quello calcolato in precedenza
+```
