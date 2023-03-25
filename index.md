@@ -55,3 +55,5 @@ L'aula informatica è dotata di computer con un installazione funzionante di R e
 Si ricorda che la **frequenza non è obbligatoria** e gli eventuali argomenti extra rispetto alle lezioni non saranno parte dell'esame. Tutti gli argomenti extra sono da considerarsi come approfondimento.
 
 ## Incontri 2023
+
+Nella pagina [aggiornamenti](updates/updates.html) è possibile vedere gli aggiornamenti dei vari incontri con riassunti i punti principali
